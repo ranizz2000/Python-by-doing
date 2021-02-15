@@ -1,4 +1,3 @@
-a = open('data.txt','r')
-b = a.read()
+a = open('data.txt','w')
+a.write("Hello KHINE YIHN MON")
 a.close()
-print(b)
