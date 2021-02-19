@@ -1,0 +1,5 @@
+name,age,university,faculty
+khine,25,kit,cs
+rolf,20,naist,music
+jose,19,standford,art
+yin,25,kit,cs
