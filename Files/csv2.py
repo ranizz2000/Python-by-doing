@@ -1,3 +1,4 @@
+import csv as c
 movies = [
     {'name': 'The matrix', 'director': 'Batuchi'},
     {'name': 'Mone Shwe Yee', 'director': 'Shwe Yee'},
@@ -5,10 +6,7 @@ movies = [
 ]
 def intoit(output):
     with open('csv2.txt', 'w') as f:
-        f.write('name,director\n')
-        for i in output:
-            #print(i['name'],i['director'])
-            f.write(f"{i['name']},{i['director']}\n")
+      c.writer()
     f.close()
 
 intoit(movies)
